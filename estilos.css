@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/LogoHSMoficial.f);
+}
+
+header {
+    width: auto;
+    height: 90px;
+    border-bottom: solid;
+}
+
+button {
+    float: right;
+    background-color: #c6c6c6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    float: left;
+}
+
+ul {
+    margin-top: 30px;
+    float: right;
+}
+
+ul li {
+    padding: 20px;
+    font-size: 10;
+    display: inline;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+ul li a {
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    border-radius: 20px;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-size: 50px;
+    height: 200px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 10px;
+    width: auto;
+    height: 300px;
+    border-top: solid;
+}
+
+#contacto{
+    height: 270px;
+    margin-top: 20px;
+    width: 50%;
+    float: right;
+}
+
+#contacto h3 {
+    margin-left: 58px;
+}
+
+#ul{
+    margin-top: -15px;
+    height: 220px;
+    width: 25%;
+    float: left;
+}
+
+#ul li{
+    display: inline;
+    height: 5px;
+    float: left;
+}
+
+
+#nosotros{
+    height: 200px;
+}
+
+button{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.botonera {
+    scroll-behavior: smooth;
+    transition: cubic-bezier();
+}

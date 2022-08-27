@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bienvenido</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <meta charset="utf-8">
+    <link rel='stylesheet' type='text/css' href='login.css'>
+    <link rel='preconnect' href='https://fonts.gstatic.com'>
+    <link href='https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&family=Teko&display=swap' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/hsm.png">
+    </header>
+    <div id="imagen">
+        <br>
+    <h2>Bienvenido</h2>
+        <h3>Busque aquí por número de lote</h2>
+    <form action="logica/buscador_lotes.php" method="POST">
+        <input type="text" name="nlote_buscar" placeholder="Ejemplo: 14">
+        <select name="xmes">
+            <option value="">Número</option>
+            <option value="159">159</option>
+            <option value="160">160</option>
+            <option value="161">161</option>
+            <option value="162">162</option>
+            <option value="163">163</option>
+            <option value="164">164</option>
+            <option value="165">165</option>
+            <option value="166">166</option>
+            <option value="167">167</option>
+            <option value="168">168</option>
+            <option value="169">169</option>
+            <option value="170">170</option>
+            <option value="171">171</option>
+        </select>
+        <button name="buscar" type="submit">Buscar</button>
+    </form>
+    
+<div id="buscador">
+    <a href="bienvenido.html"><button>Volver</button></a>
+    <a href="logica/salir.php"><button>Cerrar Sesión</button></a>
+</div>
+</div>
+</body>
+
+</html>

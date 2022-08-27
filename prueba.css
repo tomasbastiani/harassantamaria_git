@@ -1,0 +1,264 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f5f0e0;
+    color: #5E5A5A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: auto;
+    height: 90px;
+    border-bottom: solid;
+}
+
+img{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    float: left;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3{
+    text-shadow: 1px 1px 1px #5E5A5A;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.botonera ul {
+    width: auto;
+    margin-top: 30px;
+    float: right;
+}
+
+.botonera ul li {
+    padding: 5px 40px;
+    display: inline;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botonera ul li a {
+    color: #783900;
+    background-color: #e1d2b1;
+    font-size: 17px;
+    padding: 10px;
+    display: inline;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    border-radius: 20px;
+    transition-duration: 1s;
+    font-family: 'Oswald', sans-serif;
+}
+
+.botonera ul li a:hover {
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+p{
+    color: #5E5A5A;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#newsletter a {
+    color: #5E5A5A;
+}
+
+footer {
+    margin-top: 60px;
+    width: auto;
+    height: 300px;
+    border-top: solid;
+}
+
+#nosotros{
+    height: 200px;
+}
+
+button{
+    color: #783900;
+    background-color: #e1d2b1;
+    width: 100px;
+    height: 30px;
+    float: right;
+    background-color: #c6c6c6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+.botonera {
+    transition: cubic-bezier();
+    float: right;
+}
+
+select {
+    color: #e1d2b1;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    height: 30px;
+    padding: 5px;
+    width: 25%;
+ }
+
+ option{
+     color: black;
+ }
+
+ option {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+ }
+
+ #newsletter a:hover{
+    background-color: #783900;
+    color: #e1d2b1;
+ }
+
+ #botonArriba{
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 100px;
+}
+
+.botonera-noticias {
+    font-family: 'Oswald', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: 85px;   
+    background-color: #783900;
+    padding: 0px 75px;
+    border-radius: 10px;
+}
+
+ul li {
+    padding: 30px 105px;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.nav ul li{
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    color: #783900;
+    background-color: #e1d2b1;
+    font-size: 17px;
+    padding: 5px;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav ul li a:hover {
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+.nav{
+    width: 100%;
+}
+
+
+.nav li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover{
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+.nav > li {
+    float: left;
+    font-size: 16px;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    top: 0px;
+    right: -80px;
+}
+
+.noticia{
+    border: 4px; 
+    width: 50%; 
+    height: 300px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.noticia img{
+    width: 40%;
+}
+
+.noticia h4{
+    font-size: 20px;
+}
+
+#nsociales a{
+    display: block;
+    text-decoration: none;
+}
