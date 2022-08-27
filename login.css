@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;  
+    color: #444;
+    font-size: 1.4em;
+    width: 1024px;
+    height: 1100px;
+    margin: auto;
+    background-image: url('img/fondonuevo3.jpg');
+    background-position: center center;
+}
+
+
+#imagen {
+	background-image: url(img/fondo22.png);
+    width: 1024px;
+    height: 1150px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#imagen:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#imagen h3 {
+	color: #fff;
+	position: relative
+}
+
+#imagen h2 {
+	color: #fff;
+	position: relative
+}
+
+#imagen form {
+	position: relative
+}
+
+#imagen button {
+	position: relative
+}
+
+#imagen table {
+	position: relative
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    border-bottom: solid;
+    margin-bottom: 20px;
+}
+
+img{
+	margin-top: 20px;
+}
+
+h1 {
+	margin-top: 50px;
+    border-left: 8px solid #eee;
+	padding-left: 16px;
+	width: 50%;
+    color: white;
+}
+
+h2{
+    margin-left: 10px;
+    color: white;
+}
+
+h3{
+    color: white;
+    margin-left: 10px;
+}
+
+form {
+    width: 960px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    box-shadow: 0px 0px 3px #5da2a7;
+    border: 1px solid #ccc;
+}
+
+
+input[type='submit'] {
+    color: #783900;
+    background-color: #e1d2b1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-size: .6em;
+    margin-top: 35px;
+	text-decoration: none;
+	width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type='submit']:hover {
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+button {
+    color: #783900;
+    background-color: #e1d2b1;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-size: .6em;
+	text-decoration: none;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+select {
+    color: black;
+    border-radius: 2px;
+    background: white;
+    border: none;
+    font-size: 17px;
+    height: 30px;
+    padding: 5px;
+    width: 100px;
+ }
+
+
+ select:focus{ outline: none;}
+
+ option {
+    color: black;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 100px;
+ }
+
+ table {
+    font-family: 'Oswald', sans-serif;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 900px; 
+ }
+
+ td{
+    font-family: 'Oswald', sans-serif;
+	text-align: center; 
+    width: 100px; 
+    height: 50px;
+    background-color: #e1d2b1;
+    color: #783900;
+    border: 2px;
+}
+
+td a button {
+    color: #783900;
+    background-color: #e1d2b1;
+}
+
+th{
+    font-family: 'Oswald', sans-serif;
+    background-color: #783900;
+    color: #e1d2b1;
+}
+
+ #volver {
+     width: 20%;
+     float: left;
+ }
+
+ #cerrarsesion {
+     width: 50%;
+     float: right;
+ }
+
+#botones {
+    text-align: center;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+ @media all and (min-width: 600px) and (max-width: 1023px) {
+
+    body {
+        font-family: 'Oswald', sans-serif;  
+        color: #444;
+        font-size: 1.4em;
+        width: auto;
+        height: auto;
+        margin: auto;
+        background-image: url('img/fondonuevo3.jpg');
+        background-position: center center;
+    }
+    
+    
+    #imagen {
+        background-image: url(img/fondo22.png);
+        width: 1024px;
+        height: 1150px;
+        text-align: center;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    #imagen:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    #imagen h3 {
+        font-size: 50px;
+        color: #fff;
+        position: relative
+    }
+    
+    #imagen h2 {
+        color: #fff;
+        position: relative
+    }
+    
+    #imagen form {
+        position: relative
+    }
+    
+    #imagen button {
+        position: relative
+    }
+    
+    #imagen table {
+        position: relative
+    }
+    
+    header{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    img{
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+    h1 {
+        margin-top: 50px;
+        border-left: 8px solid #eee;
+        padding-left: 16px;
+        width: 50%;
+        color: white;
+    }
+    
+    h2{
+        font-size: 60px;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    h3{
+        color: white;
+        margin-left: 10px;
+    }
+    
+    form {
+        width: auto;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 50px;
+    }
+    
+    input,
+    textarea {
+        padding: 15px;
+        border-radius: 5px;
+        width: 70%;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 22px;
+    }
+    
+    input:hover,
+    input:focus,
+    textarea:hover,
+    textarea:focus {
+        box-shadow: 0px 0px 3px #5da2a7;
+        border: 1px solid #ccc;
+    }
+    
+    
+    input[type='submit'] {
+        color: #783900;
+        background-color: #e1d2b1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        border: 1px solid #999;
+        cursor: pointer;
+        font-size: 22px;
+        margin-top: 35px;
+        text-decoration: none;
+        width: 30%;
+        height: 90px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    input[type='submit']:hover {
+        background-color: #783900;
+        color: #e1d2b1;
+    }
+
+    #imagen button{
+        width: 30%;
+        height: 90px;
+    }
+    
+    button {
+        color: #783900;
+        background-color: #e1d2b1;
+        border: 1px solid #ccc;
+        padding: 15px 50px;
+        border-radius: 5px;
+        border: 1px solid #999;
+        cursor: pointer;
+        font-size: 22px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #buscador button{
+        width: 50%;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    
+    button:hover {
+        background-color: #783900;
+        color: #e1d2b1;
+    }
+    
+    select {
+        color: black;
+        border-radius: 2px;
+        background: white;
+        border: none;
+        font-size: 25px;
+        height: 60px;
+        padding: 5px;
+        width: 150px;
+     }
+    
+    
+     select:focus{ outline: none;}
+    
+     option {
+        color: black;
+        background: transparent;
+        border: none;
+        font-size: 14px;
+        height: 30px;
+        padding: 5px;
+        width: 100px;
+     }
+    
+     table {
+        font-family: 'Oswald', sans-serif;
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 100%; 
+     }
+    
+     td{
+        font-family: 'Oswald', sans-serif;
+        text-align: center; 
+        width: 100px; 
+        height: 150px;
+        background-color: #e1d2b1;
+        color: #783900;
+        border: 2px;
+    }
+    
+    a button {
+        color: #783900;
+        background-color: #e1d2b1;
+    }
+    
+    th{
+        font-family: 'Oswald', sans-serif;
+        background-color: #783900;
+        color: #e1d2b1;
+        font-size: 40px;
+    }
+
+     #volver button {
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+        height: 80px;
+    }
+   
+    #cerrarsesion button {
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+        height: 80px;
+    }
+    
+    #botones {
+        text-align: center;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+ }
